@@ -1,4 +1,7 @@
 @import url("/src/css/local/main.css");
 @import url("/src/css/local/variables.css");
-@import url("/src/css/local/sections/header.css");
 @import url("/src/css/local/style.css");
+@import url("/src/css/local/team.css");
+
+@import url("/src/css/local/sections/header.css");
+@import url("/src/css/local/sections/footer.css");

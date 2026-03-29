@@ -5,11 +5,11 @@
 
 body {
     font-family: var(--fonte-texto);
-    background: var(--cor-segundaria);
-    color: var(--cor-primaria);
+    background: var(--color-secondary);
+    color: var(--color-primary);
 }
 
-h1, h2, a {
+h1, h2 {
     font-family: var(--fonte-titulo);
     font-weight: 500;
     text-transform: uppercase;
@@ -30,4 +30,11 @@ p {
     line-height: 1.7rem;
     font-family: var(--fonte-texto);
     font-weight: 200;
+}
+
+a, a svg {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: white;
 }
