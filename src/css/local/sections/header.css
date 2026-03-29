@@ -1,0 +1,12 @@
+header {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    color: var(--cor-segundaria);
+    padding: 1rem;
+    align-items: center;
+}
+header span {
+    display: flex;
+    gap: 1rem;
+}

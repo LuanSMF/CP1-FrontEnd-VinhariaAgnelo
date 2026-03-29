@@ -1,0 +1,106 @@
+/*HERO*/
+.wine-hero {
+    padding: 2rem;
+    color: var(--cor-segundaria);
+    background-image: url('/src/assets/imgs/hero_wallpaper.png');
+    min-height: 80vh; 
+    display: flex;
+}
+
+.hero-content hr {
+    border: none;
+    height: 2px;
+    background-color: var(--cor-terciaria);
+    width: 10%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    gap: 1rem;
+}
+
+.hero-content span {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-content p {
+    color: rgba(255, 255, 255, 0.756);
+}
+
+.hero-content button:nth-of-type(1) {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-segundaria);
+    border: none;
+    padding: 0.9rem 2rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.hero-content button:nth-of-type(1):hover {
+    background-color: transparent;
+    color: var(--cor-segundaria);
+    
+    border: 2px solid var(--cor-terciaria);
+    padding: 0.8rem 1.9rem;
+    cursor: pointer;
+}
+
+.hero-content button:nth-of-type(2) {
+    background-color: transparent;
+    color: var(--cor-segundaria);
+    border: 2px solid rgba(255, 255, 255, 0.418);
+    border-radius: 3px;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.hero-content button:nth-of-type(2):hover {
+    background-color: rgba(255, 255, 255, 0.418);
+    color: var(--cor-primaria);
+    border: none;
+    padding: 1rem 2.1rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+/*BESTSELLERS*/
+
+.bestsellers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.bestsellers-introduction {
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-description {
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.product-card {
+    text-align: center;
+}
