@@ -94,6 +94,15 @@
     text-align: center;
 }
 
+.bestsellers-content a {
+    color: var(--color-primary);
+    transition: color 0.1s ease;
+}
+
+.bestsellers-content a:hover {
+    color: var(--color-tertiary);
+}
+
 .product-description {
     text-align: center;
 }
@@ -120,12 +129,33 @@
     flex-direction: column;
     align-items: center;
     gap: 20rem;
+    background-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.966) 10%, rgba(0,0,0,0) 50%), 
+    linear-gradient(to bottom, var(--color-secondary) 1%, rgba(0,0,0,0) 5%), 
+    url('/src/assets/imgs/experience_wallpaper.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 0rem 5rem 5rem 5rem;
+
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.966) 10%, rgba(0,0,0,0) 50%), url('/src/assets/imgs/experience_wallpaper.png');
+
 }
 
 .experience-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.experience-topic {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-transparent);
+    margin: 1rem;
     gap: 3rem;
 }
 
@@ -140,4 +170,109 @@
 
 .experience-topic img {
     height: 250px;
+
+    width: fit-content;
+}
+
+.experience-topic hr {
+    border: none;
+    height: 1px;
+    background-color: var(--color-transparent);
+    width: 90%;
+}
+
+/*1024px*/
+@media (max-width: 1024px) {
+    .wine-hero {
+        min-height: 70vh;
+        padding: 2rem;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .products {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-card {
+        flex: 1 1 calc(50% - 2rem);
+        max-width: 200px;
+    }
+
+    .experience-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .experience-topic {
+        flex: 1 1 calc(50% - 2rem);
+        align-items: center;
+    }
+}
+
+/*600px*/
+@media (max-width: 600px) {
+    .wine-hero {
+        min-height: 60vh;
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        align-items: center;
+    }
+
+    .hero-content hr {
+        width: 30%;
+    }
+
+    .hero-content span {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-content button {
+        width: 100%;
+    }
+
+    .bestsellers {
+        margin: 2rem 1rem;
+        gap: 4rem;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .product-card img {
+        height: 250px;
+    }
+
+    .experience-section {
+        gap: 5rem;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .experience-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-topic {
+        width: 100%;
+        max-width: 300px;
+    }
+
 }
