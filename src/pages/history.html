@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="história da Vinharia Agnello, origem da marca, controle de qualidade, seleção de vinhos, experiência do cliente, vinhos mais vendidos">
     <meta name="description" content="Descubra a história da Vinharia Agnello e nossa paixão por vinhos de qualidade.">
     <link rel="stylesheet" href="/src/css/global.css">
 
@@ -58,9 +59,6 @@
         .texto {
             width: 50%;
         } 
-        html {
-    scroll-behavior: smooth;
-}
     </style>
 
 </head>
@@ -81,7 +79,7 @@
 
     <main class="history-content">
         <hr>
-        <h2> Origem da Marca</h2>
+        <h2 id="origem"> Origem da Marca</h2>
         <p>
             A Vinheria Agnello surgiu em São Paulo há mais de 15 anos, idealizada por Giulio Agnello, um imigrante italiano profundamente ligado à cultura do vinho. Nascido em uma região tradicional da Itália, Giulio cresceu em contato direto com vinhedos e pequenas vinícolas familiares, onde aprendeu desde cedo a valorizar não apenas o sabor da bebida, mas também toda a história, técnica e tradição envolvidas em sua produção. Para ele, o vinho sempre representou momentos, experiências e conexões entre pessoas.
 
@@ -93,7 +91,7 @@ Nos primeiros anos, o crescimento foi gradual, sustentado principalmente pelo bo
 
 Com o tempo, a identidade da marca foi se consolidando: tradição, atendimento personalizado e valorização da experiência do cliente. Esses elementos se tornaram a base da Vinheria Agnello e continuam sendo, até hoje, o principal diferencial construído desde a sua origem.
         </p>
-        <h2>Controle de Qualidade</h2>
+        <h2 id="controle">Controle de Qualidade</h2>
         <p>
             O controle de qualidade é um dos pilares fundamentais da Vinheria Agnello, refletindo o compromisso da empresa com a excelência e a satisfação de seus clientes. Todos os vinhos comercializados passam por um criterioso processo de curadoria, que começa ainda na escolha dos fornecedores. A vinheria prioriza parcerias com vinícolas reconhecidas no mercado, tanto nacionais quanto internacionais, garantindo a procedência e a confiabilidade dos rótulos.
 
@@ -109,7 +107,7 @@ Por fim, o controle de qualidade se estende até o atendimento ao cliente. A equ
 
             <img src="../assets/imgs/vinicola.webp" alt="Vinho">
 
-            <div class="texto">
+            <div class="texto" id="selecao">
                 <h2>Seleção de Vinhos</h2>
                 <p>
                     A loja conta com uma ampla variedade de vinhos nacionais e importados, atendendo desde iniciantes
@@ -119,7 +117,7 @@ Por fim, o controle de qualidade se estende até o atendimento ao cliente. A equ
             </div>
 
         </div>
-        <h2>Experiência do Cliente</h2>
+        <h2 id="experiencia">Experiência do Cliente</h2>
         <p>
             A experiência do cliente é um dos principais diferenciais da Vinheria Agnello, sendo tratada como parte essencial do negócio. Mais do que comercializar vinhos, a empresa busca criar momentos memoráveis, transformando cada visita em uma oportunidade de descoberta e aprendizado. Desde a entrada na loja, o cliente é recebido de forma acolhedora, com um atendimento próximo e personalizado, onde suas preferências, ocasiões de consumo e até seu nível de conhecimento sobre vinhos são levados em consideração.
 
@@ -132,7 +130,7 @@ Outro aspecto importante é a preocupação com o pós-venda. A equipe se manté
         <div class="secao">
 
             <div class="texto">
-                <h3>Nossos Vinhos Mais Vendidos</h3>
+                <h3 id="vendidos">Nossos Vinhos Mais Vendidos</h3>
 
                 <!-- Uso de lista ordenada -->
                 <ol>
@@ -151,7 +149,58 @@ Outro aspecto importante é a preocupação com o pós-venda. A equipe se manté
     </main>
 
     <footer>
-        <p>© 2026 Vinharia Agnello - Todos os direitos reservados</p>
+        <div class="footer-introduction">
+            <div class="footer-description">
+                <h2>
+                    Uma nova forma de viver o mundo dos vinhos
+                </h2>
+                <p>A Vinharia Agnello une tradição e inovação para oferecer uma experiência completa, mantendo o atendimento próximo e especializado mesmo no ambiente digital.
+                </p>
+            </div>
+            <div>
+        </div>
+        </div>
+        <hr>
+        <div class="footer-topics">
+            <div class="footer-list">
+                <h3>Vinharia Agnello</h3>
+                <p>Empresa familiar com mais de 15 anos de atuação, dedicada a oferecer vinhos de qualidade com atendimento próximo e orientação especializada.</p>
+            </div>
+            <div class="footer-list">
+                <h3>Produtos</h3>
+                <a href="/src/pages/products.html#loremmuniz">Lorem Muniz</a>
+                <a href="/src/pages/products.html#loremsimoes">Lorem Simões</a>
+                <a href="/src/pages/products.html#loremjoao">Lorem João</a>
+                <a href="/src/pages/products.html#loremmunizes">Lorem Munizes</a>
+            </div>
+            <div class="footer-list">
+                <h3>História</h3>
+                <a href="/src/pages/history.html#origem">Origem da Marca</a>
+                <a href="/src/pages/history.html#controle">Controle de Qualidade</a>
+                <a href="/src/pages/history.html#selecao">Seleção de Vinhos</a>
+                <a href="/src/pages/history.html#experiencia">Experiência do Cliente</a>
+                <a href="/src/pages/history.html#vendidos">Nossos Vinhos Mais Vendidos</a>
+            </div>
+            <div class="footer-list">
+                <h3>Time</h3>
+                <a href="/src/pages/team.html#joao">João Pedro Nóbrega</a>
+                <a href="/src/pages/team.html#luan">Luan Sá</a>
+                <a href="/src/pages/team.html#kevin">Kevin Simões</a>
+            </div>
+            <div class="footer-list">
+                <h3>Contato</h3>
+                <a href="/src/pages/contact.html#send-contact">Formulário</a>
+            </div>
+        </div>
+        <hr>
+        <span>
+            <p>&copy; 2026 Desenvolvido por <strong><a href="https://github.com/nobrejohnn" target="_blank">João Pedro</a>, <a href="https://github.com/LuanSMF" target="_blank">Luan</a>, <a href="https://github.com/kevin-simoes" target="_blank">Kevin</a></strong></p>
+            <a href="https://github.com/LuanSMF/CP1-FrontEnd-VinhariaAgnelo" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+            </a>
+        </span>
     </footer>
 </body>
 
