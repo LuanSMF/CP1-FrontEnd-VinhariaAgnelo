@@ -1,17 +1,21 @@
 #product{
     display: flex;
     flex-direction: column;
+    margin: 0% 0% 0% 0%;
+    max-width: 100%;
 }
 #products{
     display: flex;
   gap: 20px;
   width: 100%;
-  margin: 5% 5% 3% 16%;
-  max-width: 65%;
+  margin: 5% 5% 3% 21%;
+  max-width: 70%;
+  max-height: 100%;
 }
 
 #products img{
-    max-width: 25%;
+    max-width: 50%;
+    margin-bottom: 2%;
 }
 .vines{
     display: flex;
@@ -21,6 +25,7 @@
 }
 #products h6{
     margin-top: auto;
+    margin-bottom: 21%;
 }
 #product h4{
     text-align: center;
@@ -32,14 +37,56 @@
 }
 
 #type-vines{
+padding: 0% 0% 0% 0%;
+max-width: 100%;
+  overflow: visible;
+}
+.row{
     display: flex;
-  gap: 20px;
-  width: 100%;
-  margin-top: 3%;
+     margin-top: 2%;
+    align-items: center;
+    gap: 20px;
+}
+.picture-vines-left,.picture-vines-right{
+    flex: 1;
 }
 
-.picture-vines{
+.reverse {
+  margin-top: 2%;
+  flex-direction: row-reverse;
 }
-.description-vines{
-    background-color: gray;
+
+.picture-vines-left img, .picture-vines-right img{
+    padding-left: 50%;
+max-width: 22.5%;
+  display: block;
+}
+.description-vines-right{
+    flex: 2;
+    margin-right: 0%;
+    padding: 0% 13% 5% 0%;
+    background-color: #1c1d21;
+    margin-left:auto;
+}
+.one-picture{
+    margin-top: 9%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    max-width: 70%;
+}
+
+.one-picture h2{
+    color: #D4AF37;
+    margin-bottom: 3%;
+}
+
+.one-picture p{
+    color:#E0E0E0;
+    line-height: 1.6;
+}
+
+
+#product-footer{
+    display: flex;
+    margin-top: 80vw;
 }
