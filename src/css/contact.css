@@ -3,10 +3,10 @@
 #contact {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* centraliza horizontal */
-    align-items: center;     /* centraliza vertical */
+    justify-content: center; 
+    align-items: center;    
     min-height: 100vh; 
-    margin-bottom: 2%;      /* ocupa tela toda */
+    margin-bottom: 2%;     
 }
 #contact article h1{
   margin-bottom: 5%;
@@ -84,7 +84,7 @@ p#table{
   margin-bottom: 1%;
 }
 
-#mensagem{    /* evita centralização estranha */
+#mensagem{   
   height: 200px;
   padding: 10px;
   box-sizing: border-box;
@@ -99,7 +99,7 @@ p#table{
 }
 article {
   flex: 2;
-  justify-content: left; /* horizontal */
+  justify-content: left; 
   align-items: left;
   width: 100%;
   max-width: 600%;
