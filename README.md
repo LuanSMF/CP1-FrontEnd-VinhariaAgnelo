@@ -1,5 +1,5 @@
 # CP1-FrontEnd-VinhariaAgnelo
-Esse projeto se trata sobre  um trabalho onde temos que fazer um site para uma vinharia contendo os elementos aprendidos em sala de aula, segue abaixo os requisitos obrigatórios para o projeto:
+Esse projeto se trata sobre um trabalho onde temos que fazer um site para uma vinharia contendo os elementos aprendidos em sala de aula, segue abaixo os requisitos obrigatórios para o projeto:
 
 - 5 Arquivos HTML criados (index.html, products.html, history.html, team.html e contact.html);
 - index.html com navegação para as demais páginas;
@@ -13,11 +13,13 @@ Esse projeto se trata sobre  um trabalho onde temos que fazer um site para uma v
 - Imagens em todas as páginas;
 - Vídeo inserido;
 - Menu de navegação funcional;
+- Sistema funcional de cadastro e análise de vinhos;
 - Links internos e externos funcionando;
 - Cada integrante com pelo menos 2 commits;
 - Projeto publicado no GitHub Pages;
 
 ## Sobre o projeto (Parte técnica)
+Um site feito para catalogar os vinhos da Vinharia Agnello, com páginas diretas para o que o usuário busca, como produtos, história da vinharia, equipe, contato e um sistema básico para registrar vinhos da Vinharia Agnello
 
 ### Estrutura
 Segue abaixo a estrutura do projeto:
@@ -95,6 +97,9 @@ Nessa tela é onde o cliente conhece a equipe de programadores do site, com os l
 
 #### contact.html
 Nessa tela é onde o cliente acessa o formulário da vinharia, com informações da vinharia como telefone, email, endereço, entre outras informações. Além disso tem um formulário com inputs a serem preenchidos e um textarea pra mensagem que o cliente quer fazer com a vinharia.
+
+#### register.html
+Nessa tela é onde o cliente consegue registrar um vinho preenchendo informações como nome do vinho, tipo, safra e quantidade de estoque. Todas essas informações são registradas no console.log da página, e o usuário é notificado sobre o registro através de um alert.
 
 ## Link do site
 Veja o projeto funcionando aqui: [Vinharia Agnello](https://luansmf.github.io/CP1-FrontEnd-VinhariaAgnelo/)
