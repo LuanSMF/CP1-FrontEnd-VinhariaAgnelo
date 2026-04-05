@@ -1,7 +1,7 @@
 .team-hero {
     padding: 2rem;
     color: var(--color-secondary);
-    background-image: url('/src/assets/imgs/team.avif');
+    background-image: url('../../assets/imgs/team.avif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -22,6 +22,7 @@ Esse projeto se trata sobre  um trabalho onde temos que fazer um site para uma v
 ### Estrutura
 Segue abaixo a estrutura do projeto:
 
+```bash
 .
 ├── src/
 │   ├── assets/
@@ -48,7 +49,7 @@ Segue abaixo a estrutura do projeto:
 │   └── index.html
 ├── LICENSE
 └── README.md
-
+```
 ### Estilo do site
 Para estilizar o site, nós usamos os estilos globais dentro de variables.css e aplicamos no main.css, veja abaixo as variáveis usadas para o projeto:
 
@@ -91,7 +92,7 @@ Nessa tela é onde o cliente conhece a equipe de programadores do site, com os l
 Nessa tela é onde o cliente acessa o formulário da vinharia, com informações da vinharia como telefone, email, endereço, entre outras informações. Além disso tem um formulário com inputs a serem preenchidos e um textarea pra mensagem que o cliente quer fazer com a vinharia.
 
 ## Link do site
-Veja o projeto funcionando aqui: [link]
+Veja o projeto funcionando aqui: [[link](https://luansmf.github.io/CP1-FrontEnd-VinhariaAgnelo/)]
 
 ## Equipe de programadores
 ### João Pedro Nóbrega 

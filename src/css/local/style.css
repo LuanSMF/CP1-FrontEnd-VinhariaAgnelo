@@ -2,7 +2,7 @@
 .wine-hero {
     padding: 2rem;
     color: var(--color-secondary);
-    background-image: url('/src/assets/imgs/hero_wallpaper.png');
+    background-image: url('../../assets/imgs/hero_wallpaper.png');
     min-height: 80vh; 
     display: flex;
 }
@@ -132,12 +132,12 @@
     background-image: 
     linear-gradient(to top, rgba(0, 0, 0, 0.966) 10%, rgba(0,0,0,0) 50%), 
     linear-gradient(to bottom, var(--color-secondary) 1%, rgba(0,0,0,0) 5%), 
-    url('/src/assets/imgs/experience_wallpaper.png');
+    url('../../assets/imgs/experience_wallpaper.pn');
     background-size: cover;
     background-repeat: no-repeat; 
     padding: 0rem 5rem 5rem 5rem;
 
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.966) 10%, rgba(0,0,0,0) 50%), url('/src/assets/imgs/experience_wallpaper.png');
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.966) 10%, rgba(0,0,0,0) 50%), url('../../assets/imgs/experience_wallpaper.png');
 
 }
 
