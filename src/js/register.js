@@ -1,17 +1,32 @@
-console.log("JS carregado");
+//console.log("JS carregado");
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM carregado");
+  //console.log("DOM carregado");
 
   const botao = document.getElementById("btnCadastro");
 
   botao.addEventListener("click", () => {
 
+    function perguntar(mensagem) {
+      const resposta = prompt(mensagem);
+      if (resposta === null) {
+        alert("Cadastro cancelado.");
+        return null;
+      }
+      return resposta;
+    }
 
-    const nome = prompt("Digite o nome do vinho:");
-    const tipo = prompt("Digite o tipo do vinho (Tinto, Branco, Rosé):");
-    const ano = prompt("Digite o ano da safra:");
-    const quantidade = prompt("Digite a quantidade em estoque:");
+    const nome = perguntar("Digite o nome do vinho:");
+    if (nome === null) return;
+
+    const tipo = perguntar("Digite o tipo do vinho (Tinto, Branco, Rosé):");
+    if (tipo === null) return;
+
+    const ano = perguntar("Digite o ano da safra:");
+    if (ano === null) return;
+
+    const quantidade = perguntar("Digite a quantidade em estoque:");
+    if (quantidade === null) return;
 
 
     const dados = {
