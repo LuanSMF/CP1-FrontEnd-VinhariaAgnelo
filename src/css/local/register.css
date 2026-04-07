@@ -10,7 +10,7 @@ max-width: 50%;
     margin-bottom: 2%;
 }
 
-button{
+#btnCadastro{
     margin-top: 20px;
     padding: 12px 26px;
     background: linear-gradient(135deg, black, #2a0d16);
