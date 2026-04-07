@@ -1,5 +1,9 @@
 # CP1-FrontEnd-VinhariaAgnelo
+<<<<<<< HEAD
 Esse projeto se trata sobre um trabalho onde temos que fazer um site para uma vinharia contendo os elementos aprendidos em sala de aula, segue abaixo os requisitos obrigatórios para o projeto:
+=======
+Esse projeto se trata sobre  um trabalho onde temos que fazer um site para uma vinharia contendo os elementos aprendidos em sala de aula, segue abaixo os requisitos obrigatórios para o projeto:
+>>>>>>> develop
 
 - 5 Arquivos HTML criados (index.html, products.html, history.html, team.html e contact.html);
 - index.html com navegação para as demais páginas;
@@ -13,13 +17,19 @@ Esse projeto se trata sobre um trabalho onde temos que fazer um site para uma vi
 - Imagens em todas as páginas;
 - Vídeo inserido;
 - Menu de navegação funcional;
+<<<<<<< HEAD
 - Sistema funcional de cadastro e análise de vinhos;
+=======
+>>>>>>> develop
 - Links internos e externos funcionando;
 - Cada integrante com pelo menos 2 commits;
 - Projeto publicado no GitHub Pages;
 
 ## Sobre o projeto (Parte técnica)
+<<<<<<< HEAD
 Um site feito para catalogar os vinhos da Vinharia Agnello, com páginas diretas para o que o usuário busca, como produtos, história da vinharia, equipe, contato e um sistema básico para registrar vinhos da Vinharia Agnello
+=======
+>>>>>>> develop
 
 ### Estrutura
 Segue abaixo a estrutura do projeto:
@@ -42,13 +52,20 @@ Segue abaixo a estrutura do projeto:
 │   │   │   └── variables.css
 │   │   └── global.css
 │   ├── js/
+<<<<<<< HEAD
 │   │   └── script.js
+=======
+│   │   └── contact.js
+>>>>>>> develop
 │   ├── pages/
 │   │   ├── contact.html
 │   │   ├── history.html
 │   │   ├── products.html
 │   │   └── team.html
+<<<<<<< HEAD
 │   │   └── register.html
+=======
+>>>>>>> develop
 │   └── index.html
 ├── LICENSE
 └── README.md
@@ -58,8 +75,12 @@ Para estilizar o site, nós usamos os estilos globais dentro de variables.css e 
 
 #### Variáveis Globais (Cores e Fontes)
 
+<<<<<<< HEAD
 
 ```css
+=======
+css
+>>>>>>> develop
 :root {
     --color-primary: #1C1D21;
     --color-secondary: #F7F4EF;
@@ -70,9 +91,12 @@ Para estilizar o site, nós usamos os estilos globais dentro de variables.css e 
     --fonte-texto: 'Montserrat', sans-serif;
 }
 
+<<<<<<< HEAD
 ```
 
 
+=======
+>>>>>>> develop
 Com isso, qualquer página do projeto já vem com o estilo pré-definido, para situações mais específicas como definições de main, div, span, etc. Nós usamos os arquivos dentro da pasta local.
 
 ### Header e Footer
@@ -98,6 +122,7 @@ Nessa tela é onde o cliente conhece a equipe de programadores do site, com os l
 #### contact.html
 Nessa tela é onde o cliente acessa o formulário da vinharia, com informações da vinharia como telefone, email, endereço, entre outras informações. Além disso tem um formulário com inputs a serem preenchidos e um textarea pra mensagem que o cliente quer fazer com a vinharia.
 
+<<<<<<< HEAD
 #### register.html
 Nessa tela é onde o cliente consegue registrar um vinho preenchendo informações como nome do vinho, tipo, safra e quantidade de estoque. Todas essas informações são registradas no console.log da página, e o usuário é notificado sobre o registro através de um alert.
 
@@ -117,3 +142,21 @@ Veja o projeto funcionando aqui: [Vinharia Agnello](https://luansmf.github.io/CP
 
 #### Autor do Texto
 #### Kevin Simões
+=======
+## Link do site
+Veja o projeto funcionando aqui: [[link](https://luansmf.github.io/CP1-FrontEnd-VinhariaAgnelo/)]
+
+## Equipe de programadores
+### João Pedro Nóbrega 
+[Git Hub](https://github.com/nobrejohnn)
+[Linkedin](https://www.linkedin.com/in/jo%C3%A3o-pedro-n%C3%B3brega-8aba55293/)
+### Kevin Simões
+[Git Hub](https://github.com/kevin-simoes)
+[Linkedin](https://www.linkedin.com/in/kevin-sim%C3%B5es-362750350/)
+### Luan Sá
+[Git Hub](https://github.com/LuanSMF)
+[Linkedin](https://www.linkedin.com/in/luans%C3%A1muniz/)
+
+### Autor do Texto
+## Kevin Simões
+>>>>>>> develop
